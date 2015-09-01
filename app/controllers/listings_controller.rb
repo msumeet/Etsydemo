@@ -80,7 +80,7 @@ class ListingsController < ApplicationController
     end
 
     def check_user
-      if current_user != @listing.user_id
+      if current_user != @listing.user
         redirect_to root_url, alert: "You are not allowed to do this action."
       end
     end
