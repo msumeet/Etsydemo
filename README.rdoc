@@ -1,3 +1,5 @@
+== Etsydemo
+
 Etsy like Marketplace App In Rails. 
 
 Demo - http://etsydemosm.herokuapp.com
